@@ -1,0 +1,17 @@
+---
+title: Intel Optane Memory
+subtitle: Making your computer faster and data safer
+layout: default
+modal-id: 1
+date: 2019-02-17
+img: optane.jpg
+thumbnail: optane.jpg
+alt: image-alt
+project-date: February 2018
+client:
+category: Hardware
+description: Intel Optane Memory - Discover The New Frontier of Memory Technology
+
+---
+
+Check out this NEW TECHNOLOGY making the computer faster and the data safer:

@@ -7,14 +7,21 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
-    {% include contact.html %}
-    {% include services.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
+
+
+    <div class="col-sm-8 col-sm-offset-2">
+
+      <title>{{ page.title }}</title>
+
+      <body>
+        {{ content }}
+      </body>
+
+    </div>
+
     {% include clients.html %}
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
 
-    </body>
+</body>
 </html>

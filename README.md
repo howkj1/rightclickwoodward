@@ -1,3 +1,10 @@
+# Right Click Woodward - Main Site
+
+jekyll port of www.rightclickwoodward.com
+
+
+
+
 Agency Jekyll theme
 ====================
 
@@ -5,7 +12,7 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
-###Portfolio 
+###Portfolio
 
 Portfolio projects are in '/_posts'
 

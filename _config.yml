@@ -1,10 +1,15 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url:
+baseurl:
 
 # Site settings
-title: Awesome Title
+title: Right Click Woodward
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+
+# Primary Header Graphic:
+graphics:
+  background-image: rcw-header.jpg
 
 
 # Team names, titles and social links
@@ -50,15 +55,13 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+address: 117 S Main St. Woodward, IA 50276
 
 # Build settings
 markdown: kramdown

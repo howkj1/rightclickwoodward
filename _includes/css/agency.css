@@ -177,7 +177,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    /* color: #{{ site.data.template.color.primary }}; */
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -269,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/{{ site.graphics.background-image }}');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -658,7 +659,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    /* background-image: url('{{ site.baseurl }}/img/map.png'); */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -864,4 +865,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+
+.stripes {
+    background: repeating-linear-gradient( -45deg, #222, #222 10px, #333 10px, #333 20px );
+    color: white;
 }
